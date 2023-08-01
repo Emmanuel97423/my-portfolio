@@ -1,0 +1,3 @@
+<template>
+    Custom page
+</template>
