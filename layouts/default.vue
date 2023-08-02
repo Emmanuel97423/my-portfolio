@@ -28,10 +28,10 @@ const updateCoordinates: (e: MouseEvent) => void = (e) => {
         <div class=" group/spotlight relative">
             <div class=" pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
                 :style="{ background: gradient }"></div>
-            <slot />
-
+            <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+                <slot />
+            </div>
         </div>
     </div>
-    <div class="float">X: {{ clientX }} Y:{{ clientY }}</div>
 </template>
 

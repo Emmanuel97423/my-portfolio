@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen">
+    <div class="h-full">
         Custom page
     </div>
 </template>
