@@ -1,5 +1,6 @@
 <template>
     <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+
         <div class="lg:flex lg:justify-between lg:gap-4">
             <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                 <div>
@@ -98,7 +99,7 @@
             </ul>
           </div> -->
             </header>
-            <main id="id" class="pt-24 lg:w-1/2 lg:py-24">
+            <main id="id" class="h-full pt-24 lg:w-1/2 lg:py-24">
                 <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
                     <div
                         class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
