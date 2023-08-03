@@ -7,7 +7,6 @@ const clientY = useClientY();
 const gradient = ref('radial-gradient(600px at 0% 0%, rgba(29, 78, 216, 0.15), transparent 80%)');
 
 const updateCoordinates: (e: MouseEvent) => void = (e) => {
-    console.log('e:', e)
 
     // console.log('e:', e.clientX, e.clientY);
     // clientX.value = e.clientX * 100 / window.innerWidth + "%";
