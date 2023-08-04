@@ -18,7 +18,7 @@ defineProps<{
                 <div class="z-10 col-span-6">
                     <p class="-mt-1 text-sm font-semibold leading-6">{{ hobbie.start }} - {{ hobbie.end }}</p>
                     <h3 class="-mt-1">
-                        <NuxtLink to="#"
+                        <NuxtLink :to="hobbie.link" target="_blank" rel="noreferrer"
                             class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base">
                             <span
                                 class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
