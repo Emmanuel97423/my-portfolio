@@ -170,9 +170,9 @@ export const projects = [
         company: 'Wealth Health',
         stack: ['Vite','Typescript','React','Tailwind'  ],
         link: {
-            type: 'github',
-            name: 'hrnet.io',
-            url: 'https://github.com/Emmanuel97423/hrnet'
+            type: 'link',
+            name: 'hrnet',
+            url: 'https://comforting-choux-3bb973.netlify.app/'
 
         }
 
