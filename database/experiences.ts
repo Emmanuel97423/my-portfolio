@@ -35,7 +35,7 @@ export const experiences = [
         company:"Emadis",
         start:2012,
         end:2018,
-        description: "Développement et amélioration des fonctionnalités ecommerce.",
+        description: "Développement d'une plateforme B to B pour mettre en relation les professionnels de la restauration et leurs fournisseurs.",
         link:"#",
         stack:["Javascript", "Php","Magento", "Mysql", "Photoshop"]
     },
