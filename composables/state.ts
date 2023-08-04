@@ -1,17 +1,13 @@
-import { projects } from '../database/projects'
-interface Project {
-  id: number;
-  year: number;
-  project: string;
-  company: string;
-  stack: string[];
-  link?: {
-    type: string;
-    name: string;
-    url: string;
-  };
-}
+import { projects } from '../database/projects';
+import { experiences } from '../database/experiences';
+import {hobbies} from "../database/hobbies";
+
+import type {HobbieProps, ExperienceProps,ProjectProps } from "../types/types";
+
 export const useClientX = ()=> useState<number>('clientX', () => 0);
 export const useClientY = ()=> useState<number>('clientY', () => 0);
 export const useCounter = () => useState<number>('counter', () => 0);
-export const useDataProjects = ()=> useState<Project[]>('projects', () => projects )
+export const useDataProjects = ()=> useState<ProjectProps[]>('projects', () => projects )
+export const useDataExperiences = ()=> useState<ExperienceProps[]>('experiences', () => experiences )
+export const useDataHobbies = ()=> useState<HobbieProps[]>('hobbies', () => hobbies )
+
