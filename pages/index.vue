@@ -18,7 +18,7 @@ const hobbies = useDataHobbies();
                     Logiciel
                 </h2>
                 <p class="mt-4 max-w-xs leading-normal">Je crée des produits et des expériences numériques accessibles et
-                    inclusifs pour le Web, les appareils mobiles et les ordinateurs de bureau.
+                    inclusifs pour le web, les appareils mobiles et les ordinateurs de bureau.
                 </p>
                 <nav class="nav hidden lg:block" aria-label="In-page jump links">
                     <ul class="mt-16 w-max">

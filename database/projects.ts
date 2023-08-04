@@ -474,8 +474,8 @@ export const projects = [
      {
         id: 36,
         year: 2009,
-        project: 'POURQUOI PAS ? REUNION',
-        company: 'POURQUOI PAS ? PARIS',
+        project: 'Pourquoi Pas ? Réunion',
+        company: 'Pourquoi Pas ? Paris',
         stack: ['Php','Magento','Apache','Photoshop','Mysql' ],
         link: {
             type: 'link',
