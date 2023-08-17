@@ -7,7 +7,7 @@ export const hobbies = [
         role:"Organisateur",
         branch:"Evénement sportif",
         link:"https://www.facebook.com/Iofctv/?locale=fr_FR",
-        imgUrl:'https://picsum.photos/256/144"'
+        imgUrl:'/img/iofc.jpg'
     },
     {
         id:2,
@@ -17,7 +17,7 @@ export const hobbies = [
         role:"Monteur",
         branch:"Audiovisuel",
         link:"https://vimeo.com/30259269",
-        imgUrl:'https://picsum.photos/256/144"'
+        imgUrl:'/img/zot_movie.jpg'
     },
     {
         id:3,
@@ -27,6 +27,6 @@ export const hobbies = [
         role:"Monteur",
         branch:"Audiovisuel",
         link:"https://vimeo.com/emmanuelnarcisse",
-        imgUrl:'https://picsum.photos/256/144"'
+        imgUrl:'/img/vimeo.jpg'
     }
 ]

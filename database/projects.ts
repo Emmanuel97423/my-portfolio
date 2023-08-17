@@ -4,7 +4,7 @@ export const projects = [
         year: 2023,
         project: 'Babone logiciel ERP',
         company: 'Littoral Pêche',
-        imgUrl:"https://picsum.photos/256/144",
+        imgUrl:"/img/babone_ui.jpg",
         stack: ['Vite', 'TypeScript', 'React', 'Redux Toolkit', 'Tailwind', 'Tauri', 'Docker'],
         link: {
             type: 'github',
@@ -155,6 +155,7 @@ export const projects = [
         project: 'Argent Bank',
         company: 'Remede Agency',
         stack: ['Vite','React','Redux',  ],
+        imgUrl:"/img/argent_brank.png",
         // link: {
         //     type: 'github',
         //     name: 'fisheye.io',
@@ -333,16 +334,16 @@ export const projects = [
     },
     {
         id: 26,
-        year: 2010,
-        project: 'ProductR',
+        year: 2022,
+        project: 'My First NFT',
         company: 'Epokweb',
-        stack: ['Php','Joomla','Apache','Mysql','Photoshop' ],
-        // link: {
-        //     type: 'link',
-        //     name: '974Riders',
-        //     url: 'https://www.facebook.com/p/974riderscom-100066391312484/?paipv=0&eav=AfZoL6BC6vnrztg_Xik7N9b1ULADGrKIBHzRRk7A-hQCXcrUGMTxsjnZwStIX-tNIog&_rdr'
+        stack: ['Blockchain','Etherum','Solidity','Web3'],
+        link: {
+            type: 'github',
+            name: 'My First NFT',
+            url: 'https://github.com/Emmanuel97423/my-first-nft'
 
-        // }
+        }
 
     },
     {
@@ -481,6 +482,20 @@ export const projects = [
             type: 'link',
             name: 'pourquoipas',
             url: 'https://www.facebook.com/pourquoipasre/?locale=fr_FR'
+
+        }
+
+    },
+     {
+        id: 36,
+        year: 2023,
+        project: 'Modal React Package',
+        company: 'Npm',
+        stack: ['React','Typescript','Vite','Styled Components','Npm' ],
+        link: {
+            type: 'link',
+            name: 'React Package',
+            url: 'https://www.npmjs.com/package/modal-react-epok974'
 
         }
 

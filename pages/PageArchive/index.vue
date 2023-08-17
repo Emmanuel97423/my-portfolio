@@ -3,34 +3,7 @@ import { useDataProjects } from "../../composables/state";
 
 const data = useDataProjects()
 
-// const data = [
-//     {
-//         id: 1,
-//         year: 2023,
-//         project: 'Babone logiciel ERP',
-//         company: 'Littoral Pêche',
-//         stack: ['vite', 'TypeScript', 'React', 'Redux Toolkit', 'Tailwind', 'Tauri'],
-//         link: {
-//             type: 'github',
-//             name: 'github.com/Emmanuel97423/babone',
-//             url: 'https://github.com/Emmanuel97423/babone'
-//         }
-//     },
-//     {
-//         id: 1,
-//         year: 2022,
-//         project: 'Exotrap (MVP)',
-//         company: 'Exotrap',
-//         stack: ['Vue', 'Nuxt', 'Vuex', 'Bootstrap', 'Node Js', 'Express Js', 'MongoDb', 'Netlify'],
-//         link: {
-//             type: 'link',
-//             name: 'exo-trap.re',
-//             url: 'https://www.exo-trap.re/'
 
-//         }
-
-//     }
-// ]
 </script>
 <template>
     <div class="lg:py-24">

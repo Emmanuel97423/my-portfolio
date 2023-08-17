@@ -139,18 +139,18 @@ const hobbies = useDataHobbies();
                         </p> -->
                 </div>
                 <div>
-                    <p class="mb-4">En 2008, j'ai décidé de me lancer dans la création d'application web, plongeant tête la
+                    <p class="mb-4">En 2008, j'ai décidé de me lancer dans la création d'applications web, plongeant tête la
                         première dans l'univers passionnant de la programmation et du développement web. Aujourd'hui, après
-                        avoir vécu des expériences incroyable, je suis fier d'avoir eu l'opportunité de construire des
+                        avoir vécu des expériences incroyables, je suis fier d'avoir eu l'opportunité de construire des
                         logiciels pour
                         <NuxtLink to="#" rel="noreferre"
                             class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
                             des agences,
-                        </NuxtLink>, en <NuxtLink to="#" rel="noreferre"
+                        </NuxtLink> en <NuxtLink to="#" rel="noreferre"
                             class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
                             start-up</NuxtLink>,
                         et <NuxtLink to="#" rel="noreferre"
-                            class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"> divers
+                            class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"> diverses
                             entreprises.
                         </NuxtLink>
                     </p>
@@ -160,7 +160,7 @@ const hobbies = useDataHobbies();
                         <NuxtLink to="#" rel="noreferre"
                             class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
                             judo
-                        </NuxtLink>, (ceinture noire), dont une grande partie en compétition à travers le monde, j'ai appris
+                        </NuxtLink> (ceinture noire), dont une grande partie en compétition à travers le monde, j'ai appris
                         à m'adapter rapidement à de nouvelles situations et à travailler efficacement en équipe, deux
                         compétences essentielles dans le domaine du<NuxtLink to="#" rel="noreferre"
                             class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
