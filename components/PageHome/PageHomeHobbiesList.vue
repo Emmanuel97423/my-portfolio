@@ -17,12 +17,14 @@ defineProps<{
                     style="color: transparent;" />
                 <div class="z-10 col-span-6">
                     <p class="-mt-1 text-sm font-semibold leading-6">{{ hobbie.start }} - {{ hobbie.end }}</p>
+                    <p class="-mt-1 text-sm leading-6"> {{ hobbie.role }}</p>
                     <h3 class="-mt-1">
                         <NuxtLink :to="hobbie.link" target="_blank" rel="noreferrer"
                             class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base">
                             <span
                                 class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>{{ hobbie.title }}
+                            <span>{{ hobbie.title }} ·
+
                                 <span class="inline-block">
                                     {{ hobbie.branch }}
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
