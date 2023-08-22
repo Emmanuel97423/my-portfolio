@@ -11,7 +11,7 @@ export const experiences = [
     },
     { 
         id:2,
-        job:" Développeur frontend - Projets professionnalisants",
+        job:" Développeur frontend - Projets",
         company:"Openclassrooms",
         start:2020,
         end:2023,

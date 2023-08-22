@@ -1,13 +1,6 @@
 <script setup lang="ts">
 import { ProjectProps } from '../../types/types'
-// interface data {
-//     id: number
-//     year: number
-//     project: string
-//     company: string
-//     stack: string[]
-//     link: string
-// }
+
 
 defineProps<{
     data: ProjectProps[]
