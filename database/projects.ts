@@ -1,4 +1,17 @@
 export const projects = [
+      {
+        id: 37,
+        year: 2023,
+        project: 'Crowdfunding blockchain App (quickstarter)',
+        company: 'Web 3',
+        imgUrl:"/img/crowdfunding_blockchain_app.png",
+        stack: ['Vite', 'TypeScript', 'React', 'React Context', 'Tailwind', 'Blockchain', 'Thirdweb', 'Solidity', 'Ether.js'],
+        link: {
+            type: 'link',
+            name: 'Crowfunding_blockchain',
+            url: 'https://glowing-conkies-eb1ad9.netlify.app/'
+        }
+    },
     {
         id: 1,
         year: 2023,
@@ -500,5 +513,6 @@ export const projects = [
         }
 
     },
+    
 
 ]
