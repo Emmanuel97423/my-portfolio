@@ -9,7 +9,7 @@ export const projects = [
         link: {
             type: 'link',
             name: 'Crowfunding_blockchain',
-            url: 'https://glowing-conkies-eb1ad9.netlify.app/'
+            url: 'https://crowdfunding-blockchain-app.netlify.app/'
         }
     },
     {
