@@ -18,7 +18,7 @@ defineProps<{
                 <div class="z-10 sm:col-span-6">
                     <h3 class="font-medium leading-snug text-slate-200">
                         <div>
-                            <NuxtLink
+                            <NuxtLink :to="experience.link"
                                 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                                 target="_blank" rel="noreferrer" aria-label="Lead Engineer at Upstatement">
                                 <span
